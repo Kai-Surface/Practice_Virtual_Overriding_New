@@ -12,7 +12,7 @@ namespace Practice_Virtual_Overriding_New
         {
         }
 
-        public new bool Withdraw(double amount)
+        public override bool Withdraw(double amount)
         {
             Console.WriteLine("Cannot withdraw from a retirement account");
             return false;

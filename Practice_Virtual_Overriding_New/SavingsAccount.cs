@@ -23,7 +23,7 @@ namespace Practice_Virtual_Overriding_New
 
             if (_depositSuccessful)
             {
-                _balance += _interest; 
+                Balance += Interest; 
             }
 
             return _depositSuccessful;
